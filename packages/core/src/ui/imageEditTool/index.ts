@@ -52,7 +52,7 @@ export class ImageEditTool extends BaseFloat {
         = document.createElement('div');
 
     constructor(muya: Muya, options: Options = { ...defaultOptions }) {
-        const name = 'mu-image-selector';
+        const name = 'mu-image-selector'; // todo: arpit
         super(muya, name, Object.assign({}, defaultOptions, options));
         // Why aren't options set on baseFloat?
         this.options = Object.assign({}, defaultOptions, options);
